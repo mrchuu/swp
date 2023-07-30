@@ -1,0 +1,260 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 21, 2023, 12:19:54 AM
+    Author     : FPT
+*/
+
+.PersonalInfo h4{
+    margin: 10px 0;
+}
+.PersonalInfo-left{
+    /*    display: inline;
+        width: 30%;*/
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 25px;
+
+}
+.PersonalInfo-right{
+    /*    display: inline;
+        width: 50%;*/
+    text-align: left;
+    margin-left: 25px;
+
+}
+.PersonalInfo{
+    display: flex;
+    justify-content: center;
+
+}
+.PersonalInfo h4{
+    opacity: 0.7;
+}
+.LogOutButton{
+    width: 10%;
+    background-color: rgb(161,44,47);
+    padding: 10px 0;
+    border-radius: 30px;
+    margin: 100px auto 0 auto !important;
+    display: inline-block;
+}
+.LogOutButton a{
+    color: white;
+
+}
+.Per{
+    position: relative;
+    top: -10px;
+}
+.Per h2{
+    position: relative;
+    left: -73px;
+}
+.EditProfileButton{
+    display: inline-block;
+    position: relative;
+    left: 90px;
+}
+.myCourse{
+    text-align: center;
+}
+.CourseCell{
+    margin: 10px 0;
+    display: flex;
+    justify-content: left;
+    min-height: 216px;
+}
+.CourseCell img{
+    width: 20%;
+}
+.CourseCell_Info{
+    background-color: #2d5163;
+    width: 75%;
+    text-align: left;
+
+}
+.CourseCell_Info h4{
+    color: white;
+    margin: 10px 10px;
+}
+.CourseCell_Info p{
+    color: white;
+    margin: 5px 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 85%;
+    font-size: 110%
+}
+
+.meeting-item p{
+    color: white;
+    margin-left: 10px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
+    font-size: 110%
+}
+
+
+
+.courseDate{
+    margin-top: 20px !important;
+    font-weight: bold;
+    color: #d0d656 !important;
+}
+.EditProfileButton a{
+    position: relative;
+    left: -105px;
+}
+.emptyCourse{
+    position: relative;
+    top: -50px;
+}
+.emptyCourse img{
+    width: 30%;
+}
+.filters ul{
+    display: flex;
+    justify-content: center;
+}
+.filters a{
+    color: rgb(166, 56, 47);
+    margin: 0 10px;
+
+}
+.subjectfilter{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.pageT, .filters{
+    margin-bottom: 70px;
+}
+.myChart{
+    border: 3px solid rgba(160, 159, 159, 0.5);
+    border-radius: 1px;
+
+}
+.dashBoardInput{
+    width: 17% !important;
+    position: relative;
+    top: 40px;
+    left: 750px;
+}
+.noDirectEdit{
+    margin: 0px 0px 20px 10px;
+}
+.CourseContent .sectionHeader{
+    text-align: left;
+}
+.sectionHeader h4,.disabledLesson h4{
+    display: inline-block;
+}
+.LessonDesc{
+    width: 90%;
+    margin: 30px auto !important;
+    margin-left: 55px !important
+}
+
+.btnDes{
+    border: none;
+    background-color: inherit;
+}
+.CourseContentEditButton{
+    text-align: right;
+    border: none;
+    background-color: inherit;
+    position: relative;
+    right: -500px
+}
+
+.CourseContentEditButton, .DeactivateButton h4, .activateButton h4{
+    font-size: 70%;
+    color: white
+}
+.DeactivateButton, .activateButton{
+    text-align: right;
+    border: none;
+    background-color: inherit;
+}
+.DeactivateButton i{
+    color: #ff6464;
+}
+.activateButton i{
+    color: #4bffa0;
+}
+.disabledLesson{
+    text-align: left
+}
+.disabledLessonheader{
+    position: relative;
+    left: 85px
+}
+.disabledLesson .LessonDesc{
+    position: relative;
+    left: 17px
+}
+.addnewToSection{
+    padding-left: 70px;
+}
+.addnewToSection a{
+    color: white;
+}
+.addnewToSection a:hover{
+    color: yellow;
+}
+.QuestionListEdit{
+    margin: 0 auto;
+    background-color: #e9e8e1;
+    width: 85%;
+    min-height: 500px;
+    border-radius: 25px
+
+}
+.QuestionListEdit form{
+    text-align: left;
+    padding: 50px 30px
+}
+.QuestionListEdit input{
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: #e9e8e1;
+    border-bottom: 1px solid #a8a8a8
+}
+.tick{
+    width: 3% !important
+}
+#Editsubmit{
+    background-color: #a94c4c;
+    color: white;
+    width: 20%;
+    margin-top: 30px;
+    padding: 5px 0;
+    border-radius: 15px
+}
+.choiceEdit button, .addnewchoicebtn{
+    border: none;
+    background-color: inherit;
+}
+
+.addnewQuestionBtn{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -10px;
+    padding: 10px;
+}
+.choiceEdit button i:hover{
+    color: yellow;
+}

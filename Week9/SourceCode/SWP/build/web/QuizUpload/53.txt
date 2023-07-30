@@ -1,0 +1,2 @@
+\*Question*\1+1=?#\*anstrue*\2#\*ans*\3#\*ans*\4
+\*Question*\1*1=?#\*ans*\106666666666666666#\*anstrue*\11#\*ans*\1
